@@ -1,37 +1,47 @@
+import Hero from "./sections/Hero"
+import PopularProdcut from "./sections/PopularProduct"
+import Services from "./sections/Services"
+import Support from "./sections/Support"
+import SpecialOffers from "./sections/SpecialOffers"
+import SuperQuality from "./sections/SuperQuality"
+import Footer from "./sections/Footer"
+import CustomerReview from "./sections/CustomerReview"
+
+
 const App = () => (
   <main className="relative"> 
       Navbar
 
       <section className="xl:padding-1 wide:padding-r padding-b">
-        Hero
+        <Hero />
       </section>
       
       <section className="padding">
-        Popular Products 
+        <PopularProdcut />
       </section>
 
       <section className="padding">
-        SuperQuality
+        <SuperQuality/>
       </section>
 
       <section className="padding-x py-10"> 
-        Serives
+        <Services />
       </section>
 
       <section className="padding">
-        SpecialOffers
+        <SpecialOffers />
       </section>
 
       <section className="bg-pale-blue padding">
-        CustomerReview
+        <CustomerReview />
       </section>
       
       <section className="padding-x sm:py-32 py-16 w-full">
-        Support 
+        <Support /> 
       </section>
 
       <section className="bg-black padding-x padding-t pb-8">
-        Footer
+        <Footer />
       </section>
   </main>
 )
