@@ -1,16 +1,17 @@
 import Hero from "./sections/Hero"
 import PopularProdcut from "./sections/PopularProduct"
 import Services from "./sections/Services"
-import Support from "./sections/Support"
+import Support from "./sections/Subscribe"
 import SpecialOffers from "./sections/SpecialOffers"
 import SuperQuality from "./sections/SuperQuality"
 import Footer from "./sections/Footer"
 import CustomerReview from "./sections/CustomerReview"
+import Navbar from "./components/Navbar"
 
 
 const App = () => (
   <main className="relative"> 
-      Navbar
+      <Navbar />
 
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
